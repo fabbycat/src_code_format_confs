@@ -1,5 +1,5 @@
-name: 'HTML: Mini Format'
-machine_name: 'format_html_mini'
+name: 'HTML Source Code: Mini Format'
+machine_name: 'format_html_src_code_mini'
 description: 'A restricted HTML source code editor with a very limited range of tags and no attributes.'
 # lifecycle:
 # lifecycle_link:
@@ -15,7 +15,7 @@ dependencies:
   - drupal:system
   - drupal:text
   - drupal:user
-  - text_format_confs:text_format_confs
+  - src_code_format_confs:src_code_format_confs
 # test_dependencies:
 # configure:
 # configure_parameters:

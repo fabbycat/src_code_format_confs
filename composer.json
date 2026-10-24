@@ -1,6 +1,6 @@
 {
-    "name": "text_format_confs/text_format_confs",
-    "description": "A collection of text formats ranging from minimally restricted to tightly restricted. These filters can be reused in modules and when managing content through the Drupal administration interface.",
+    "name": "src_code_format_confs/src_code_format_confs",
+    "description": "A collection source code format configurations and filter rules for editing content in Drupal. These formats can be reused in modules and when managing content through the Drupal administration interface.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {

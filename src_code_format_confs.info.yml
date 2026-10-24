@@ -1,0 +1,22 @@
+name: 'HTML Source Code: Format Configurations'
+machine_name: 'src_code_format_confs'
+description: 'A collection of HTML source code formats for editing content in Drupal, typically through text areas. Ranging from minimally restricted to tightly restricted these formats can be reused in modules and when managing content through the Drupal administration interface.'
+# lifecycle:
+# lifecycle_link:
+# project status url:
+package: Text formats
+type: module
+core_version_requirement: ^11 || ^12
+php: 8.3
+dependencies:
+  - drupal:field
+  - drupal:filter
+  - drupal:node
+  - drupal:system
+  - drupal:text
+  - drupal:user
+# test_dependencies:
+# configure:
+# configure_parameters:
+# hidden:
+# required:

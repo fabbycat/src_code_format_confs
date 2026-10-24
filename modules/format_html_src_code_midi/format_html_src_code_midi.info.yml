@@ -1,5 +1,5 @@
-name: 'HTML: Midi Format'
-machine_name: 'format_html_midi'
+name: 'HTML Source Code: Midi Format'
+machine_name: 'format_html_src_code_midi'
 description: 'A HTML source code format that allows a balanced range of HTML tags and attributes. It can be considered for more trusted content editors users with a good knowledge of HTML.'
 # lifecycle:
 # lifecycle_link:
@@ -15,7 +15,7 @@ dependencies:
   - drupal:system
   - drupal:text
   - drupal:user
-  - text_format_confs:text_format_confs
+  - src_code_format_confs:src_code_format_confs
 # test_dependencies:
 # configure:
 # configure_parameters:

@@ -1,11 +1,13 @@
 {
-    "name": "text_format_confs NodeJS development tools",
+    "name": "text_format_confs",
     "description": "A collection of text formats ranging from minimally restricted to tightly restricted. These filters can be reused in modules and when managing content through the Drupal administration interface.",
     "type": "module",
     "devDependencies": {
         "@commitlint/cli": "^21.2.3",
         "@commitlint/config-conventional": "^21.2.3",
-        "husky": "^9.1.7"
+        "husky": "^9.1.7",
+        "markdownlint": "^0.42.0",
+        "markdownlint-cli2": "^0.24.0"
     },
     "scripts": {
         "prepare": "husky"

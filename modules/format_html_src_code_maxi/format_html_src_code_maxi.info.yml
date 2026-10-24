@@ -1,5 +1,5 @@
-name: 'HTML: Maxi Format'
-machine_name: 'format_html_maxi'
+name: 'HTML Source Code: Maxi Format'
+machine_name: 'format_html_src_code_maxi'
 description: 'A HTML source code editing format that allows the use of a wide range of HTML tags and attributes. It should only be considered for the most trusted users with the highest levels of privilege.'
 # lifecycle:
 # lifecycle_link:
@@ -18,7 +18,7 @@ dependencies:
   - drupal:system
   - drupal:text
   - drupal:user
-  - text_format_confs:text_format_confs
+  - src_code_format_confs:src_code_format_confs
 # test_dependencies:
 # configure:
 # configure_parameters:

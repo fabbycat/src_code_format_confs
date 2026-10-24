@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - media
-name: 'HTML: Maxi Format'
-format: format_html_maxi_pipeline
+name: 'HTML Source Code: Maxi Format'
+format: format_html_src_code_maxi_pipeline
 weight: 0
 filters:
   # Restrict and clean HTML

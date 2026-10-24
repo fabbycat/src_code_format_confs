@@ -1,19 +1,21 @@
-# Shared Text Formats
+# Source Code Format Configurations
 
-A collection of text formats ranging from minimally restricted to tightly restricted. These
-formats can be reused in modules and when managing content through the Drupal administration
-interface. They are also available for configuration using by navigating to:
+A collection of HTML source code formats for editing content in Drupal, typically through text
+areas. Ranging from minimally restricted to tightly restricted these formats can be reused in
+modules and when managing content through the Drupal administration interface.
 
-_\> admin \> config \> content \> formats_ page
+_\> admin \> config \> content \> formats_
 
-## HTML Source Code Formats
+page.
 
-Formats for editing a textarea directly as HTML source code.
+## HTML: Source Code Formats
 
-### HTML Format, Maxi
+Formats for editing content in a textarea directly as HTML source code.
+
+### HTML: Maxi Source Code Format
 
 A text format that allows the use of a wide range of HTML tags and attributes. It should only be
-considered for the most trusted users with the highest levels of privilege. 
+considered for the most trusted users with the highest levels of privilege.
 
 This HTML has the following settings enabled:
 
@@ -29,9 +31,12 @@ This HTML has the following settings enabled:
 - Lazy load images
 - Embed media
 
-[Further information on the specific tags and attributes](modules/format_html_maxi/TAGS-AND-ATTRIBUTES.md) that are enabled are available in the submodule's directory.
+[Further information on the specific tags and attributes](modules/format_html_maxi_src/TAGS-AND-ATTRIBUTES.md) that are enabled are available in the submodule's directory.
 
 ## HTML Format, Midi
 
+This HTML has the following settings enabled:
 
 ## HTML Format, Mini
+
+This HTML has the following settings enabled:
