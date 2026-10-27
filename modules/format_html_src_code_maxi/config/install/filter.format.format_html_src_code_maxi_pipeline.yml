@@ -14,7 +14,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: "<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type='1 A I'> <li> <dl> <dt> <dd> <h2 id='jump-*'> <h3 id> <h4 id> <h5 id> <h6 id><drupal-media data-entity-type data-entity-uuid>"
+      allowed_html: "<a aria-label class href data-entity-metadata data-entity-type data-entity-uuid id rel target title> <abbr class> <bdi class> <blockquote cite class> <br class> <caption class> <cite class> <code class> <col class> <colgroup class> <data class> <dd class> <del cite class datetime> <details class> <dfn class id title> <div class> <dl class> <dt class> <em> <figcaption class> <figure class id> <hgroup class id> <h2 class id> <h3 class id> <h4 class id> <h5 class id> <h6 class id> <hr class id> <ins cite class datetime id> <li class> <mark class> <meter class> <ol class id start type> <p class> <pre class> <q class> <s class> <samp class> <section class id> <small class> <span class> <strong> <sub class> <sup class> <table class id> <tbody> <td class colspan headers rowspan> <tfoot class> <th class> <thead class> <time class> <tr class> <u class> <ul class type> <var class> <wbr class> <drupal-media alt class data-align data-caption data-entity-type data-link-entity-metadata data-link-entity-type data-link-entity-uuid data-entity-uuid data-view-mode id>"
       filter_html_help: true
       filter_html_nofollow: false
   # Update entity links automatically
@@ -53,17 +53,31 @@ filters:
     status: true
     weight: 9
     settings: {}
-# Use media module to control embed media
-#  media_embed:
-#    id: media_embed
-#    provider: media
-#    status: true
-#    weight: 100
-#    settings:
-#      default_view_mode: default
-#      allowed_view_modes:
-#        default: default
-#        full: full
-#        media_library: media_library
-#      allowed_media_types: {}
-#
+ # Correct HTML Errors
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  # Lazy load images if dimensions are present
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 15
+    settings: {  }
+ # Use media module to control embed media
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes:
+        default: default
+        full: full
+        media_library: media_library
+      allowed_media_types: {}
+

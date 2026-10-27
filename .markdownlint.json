@@ -1,7 +1,16 @@
 {
+    "commands-show-output": {
+        "enabled": true,
+        "severity": "warning"
+    },
     "heading-increment": {
         "enabled": true,
         "severity": "error"
+    },
+    "heading-style": {
+        "style": "atx",
+        "enabled": true,
+        "severity": "warning"
     },
     "line-length": {
         "enabled": true,
@@ -15,15 +24,40 @@
         "tables": false,
         "severity": "error"
     },
+    "list-indent": {
+        "enabled": true,
+        "severity": "warning"
+    },
+    "no-hard-tabs": {
+        "enabled": true,
+        "severity": "error",
+        "code_blocks": true,
+        "ignore_code_languages": [],
+        "spaces_per_tab": 1
+    },
     "no-inline-html": {
         "allowed_elements": [
             "sup"
         ],
-        "table_allowed_elements": [],
+        "table_allowed_elements": [
+            "sup"
+        ],
         "enabled": true,
         "severity": "error"
     },
-    "no-reversed-links": true,
+    "no-missing-space-atx": {
+        "enabled": true,
+        "severity": "error"
+    },
+    "no-multiple-blanks": {
+        "enabled": true,
+        "severity": "error",
+        "maximum": 1
+    },
+    "no-reversed-links": {
+        "enabled": true,
+        "severity": "error"
+    },
     "no-trailing-spaces": {
         "enabled": true,
         "br_spaces": 2,
@@ -32,11 +66,26 @@
         "strict": true,
         "severity": "error"
     },
-    "single-trailing-newline": true,
+    "single-trailing-newline": {
+        "enabled": true,
+        "severity": "error"
+    },
     "table-column-style": {
         "enabled": true,
         "aligned_delimiter": true,
         "style": "aligned",
         "severity": "warning"
+    },
+    "ul-indent": {
+        "enabled": true,
+        "severity": "error",
+        "indent": 2,
+        "start_indented": true,
+        "start_indent": 2
+    },
+    "ul-style": {
+        "enabled": true,
+        "severity": "warning",
+        "style": "sublist"
     }
 }

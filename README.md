@@ -19,19 +19,20 @@ considered for the most trusted users with the highest levels of privilege.
 
 This HTML has the following settings enabled:
 
-- Limit allowed HTML tags and correct faulty HTML
-- Track images uploaded via a Text Editor
-- Entity links
-- Align images
-- Convert line breaks into HTML
-- Caption Images
-- Convert URLs into links
-- Restrict images to this site
-- Correct faulty and chopped off HTML
-- Lazy load images
-- Embed media
+  - Limit allowed HTML tags and correct faulty HTML
+  - Track images uploaded via a Text Editor
+  - Entity links
+  - Align images
+  - Convert line breaks into HTML
+  - Caption Images
+  - Convert URLs into links
+  - Restrict images to this site
+  - Correct faulty and chopped off HTML
+  - Lazy load images
+  - Embed media
 
-[Further information on the specific tags and attributes](modules/format_html_maxi_src/TAGS-AND-ATTRIBUTES.md) that are enabled are available in the submodule's directory.
+[Further information on the specific tags and attributes](modules/format_html_maxi_src/TAGS-AND-ATTRIBUTES.md)
+that are enabled are available in the submodule's directory.
 
 ## HTML Format, Midi
 

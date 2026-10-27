@@ -8,149 +8,196 @@ and CSS should be given permissions for it's usage.
 
 ### HTML Tags
 
-| Tag                                         | Attributes                                 | ✅❌❔ |
-| ------------------------------------------- | ------------------------------------------ | ------ |
-| \<a>                                        | aria-label, class, dir, href, hreflang     | ✅     |
-| \<abbr>                                     | class, dir, lang                           | ✅     |
-| \<address>                                  | class , dir, lang                          |   ❌   |
-| \<area>                                     |                                            |   ❌   |
-| \<article><sup>[forms](#forms)</sup>        |                                            |   ❌   |
-| \<aside>                                    | class, dir, lang                           | ✅  ❔ |
-| \<audio>                                    |                                            |   ❌   |
-| \<b>                                        |                                            | ✅     |
-| \<base>                                     |                                            |   ❌   |
-| \<bdi>                                      |                                            |   ❌   |
-| \<bdo>                                      |                                            |   ❌   |
-| \<blockquote>                               | cite, class, dir, lang                     | ✅     |
-| \<body>                                     |                                            |   ❌   |
-| \<br>                                       |                                            | ✅     |
-| \<button>                                   |                                            |   ❌   |
-| \<canvas>                                   |                                            |   ❌   |
-| \<caption>                                  | class, dir, lang                           | ✅     |
-| \<cite>                                     | class, dir, lang                           | ✅     |
-| \<code>                                     | class, dir, lang                           | ✅     |
-| \<col>                                      |                                            | ✅     |
-| \<colgroup>                                 |                                            | ✅     |
-| \<data>                                     |                                            |   ❌   |
-| \<datalist>                                 |                                            |   ❌   |
-| \<dd>                                       |                                            | ✅     |
-| \<del>                                      |                                            | ✅     |
-| \<details>                                  |                                            |   ❌   |
-| \<dfn>                                      | class, dir, lang                           | ✅     |
-| \<dialogue>                                 |                                            |   ❌   |
-| \<div>                                      | class, dir, lang                           | ✅  ❔ |
-| \<dl>                                       | class, dir, lang                           | ✅     |
-| \<dt>                                       | class, dir, lang                           | ✅     |
-| \<em>                                       |                                            | ✅     |
-| \<embed>                                    |                                            |   ❌   |
-| \<fieldset>                                 |                                            |   ❌   |
-| \<figcaption>                               | class, dir, lang                           | ✅     |
-| \<figure>                                   | class, dir, lang                           | ✅     |
-| \<footer>                                   |                                            |   ❌   |
-| \<form>                                     |                                            |   ❌   |
-| \<head>                                     |                                            |   ❌   |
-| \<header>                                   |                                            |   ❌   |
-| \<hgroup>                                   | class, dir, lang                           | ✅  ❔ |
-| \<h1>                                       |                                            |   ❌   |
-| \<h2>                                       | class, dir, id, lang                       | ✅     |
-| \<h3>                                       | class, dir, id, lang                       | ✅     |
-| \<h4>                                       | class, dir, id, lang                       | ✅     |
-| \<h5>                                       | class, dir, id, lang                       | ✅     |
-| \<h6>                                       | class, dir, id, lang                       | ✅     |
-| \<hr>                                       |                                            | ✅     |
-| \<html>                                     |                                            |   ❌   |
-| \<i>                                        |                                            | ✅     |
-| \<iframe>                                   |                                            |   ❌   |
-| \<img>                                      |                                            |   ❌   |
-| \<ins>                                      | class, dir, lang                           | ✅     |
-| \<kbd>                                      |                                            |   ❌   |
-| \<keygen>                                   |                                            |   ❌   |
-| \<label>                                    |                                            |   ❌   |
-| \<legend>                                   |                                            |   ❌   |
-| \<li>                                       | class, dir, lang                           | ✅     |
-| \<link>                                     |                                            |   ❌   |
-| \<main>                                     |                                            |   ❌   |
-| \<map>                                      |                                            |   ❌   |
-| \<mark>                                     | class, dir, lang                           | ✅     |
-| \<menu>                                     |                                            |   ❌   |
-| \<menuitem>                                 |                                            |   ❌   |
-| \<meta>                                     |                                            |   ❌   |
-| \<meter>                                    | class, dir, lang                           | ✅     |
-| \<nav>                                      |                                            |   ❌   |
-| \<noscript>                                 |                                            |   ❌   |
-| \<object>                                   |                                            |   ❌   |
-| \<ol>                                       | class, dir, lang, start, type              | ✅     |
-| \<optgroup>                                 |                                            |   ❌   |
-| \<option>                                   |                                            |   ❌   |
-| \<output>                                   |                                            |   ❌   |
-| \<p>                                        | class, dir, lang                           | ✅     |
-| \<param>                                    |                                            |   ❌   |
-| \<picture>                                  |                                            |   ❌   |
-| \<pre>                                      | class, dir, lang                           | ✅     |
-| \<progress>                                 |                                            |   ❌   |
-| \<q>                                        | class, dir, lang                           | ✅     |
-| \<rp>                                       |                                            |   ❌   |
-| \<rt>                                       |                                            |   ❌   |
-| \<ruby>                                     |                                            |   ❌   |
-| \<s>                                        | class, dir, lang                           | ✅     |
-| \<samp>                                     | class, dir, lang                           | ✅     |
-| \<script>                                   |                                            |   ❌   |
-| \<section>                                  | class, dir, lang                           | ✅  ❔ |
-| \<select>                                   |                                            |   ❌   |
-| \<small>                                    | class, dir, lang                           | ✅     |
-| \<source>                                   |                                            |   ❌   |
-| \<span>                                     | class, dir, lang                           | ✅     |
-| \<strong>                                   | class, dir, lang                           | ✅     |
-| \<style>                                    |                                            |   ❌   |
-| \<sub>                                      | class, dir, lang                           | ✅     |
-| \<summary>                                  |                                            |   ❌   |
-| \<sup>                                      | class, dir, lang                           | ✅     |
-| \<svg>                                      |                                            |   ❌   |
-| \<table>                                    | class, dir, lang                           | ✅     |
-| \<tbody>                                    | class, dir, lang                           | ✅     |
-| \<td>                                       | class, dir, lang                           | ✅     |
-| \<template>                                 |                                            |   ❌   |
-| \<textarea>                                 |                                            |   ❌   |
-| \<tfoot>                                    | class, dir, lang                           | ✅     |
-| \<th>                                       | class, dir, lang                           | ✅     |
-| \<thead>                                    | class, dir, lang                           | ✅     |
-| \<time>                                     | class, dir, lang                           | ✅     |
-| \<title>                                    |                                            |   ❌   |
-| \<tr>                                       | class, dir, lang                           | ✅     |
-| \<track>                                    |                                            |   ❌   |
-| \<u>                                        | class, dir, lang                           | ✅     |
-| \<ul>                                       | class, dir, lang                           | ✅     |
-| \<var>                                      | class, dir, lang                           | ✅     |
-| \<video>                                    |                                            |   ❌   |
-| \<wbr>                                      | class, dir, lang                           | ✅     |
+| Tag                                         | Attributes                                                                                                | ✅❌❔ |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------ |
+| \<a>                                        | aria-label, class, href, data-entity-metadata, data-entity-type, data-entity-uuid, id, rel, target, title | ✅     |
+| \<abbr>                                     | class                                                                                                     | ✅     |
+| \<address><sup>[provided](#provided)</sup>  |                                                                                                           |   ❌❔ |
+| \<area><sup>[media](#media)</sup>           |                                                                                                           |   ❌   |
+| \<article><sup>[semantic](#semantic)</sup>  |                                                                                                           |   ❌   |
+| \<aside><sup>[semantic](#semantic)</sup>    |                                                                                                           |   ❌❔ |
+| \<audio><sup>[media](#media)</sup>          |                                                                                                           |   ❌   |
+| \<b><sup>[b](#b)</sup>                      |                                                                                                           |   ❌❔ |
+| \<base><sup>[head](#head)</sup>             |                                                                                                           |   ❌   |
+| \<bdi>                                      | class                                                                                                     | ✅  ❔ |
+| \<bdo>                                      |                                                                                                           |   ❌❔ |
+| \<blockquote>                               | cite, class                                                                                               | ✅     |
+| \<body><sup>[doc](doc)</sup>                |                                                                                                           |   ❌   |
+| \<br>                                       | class                                                                                                     | ✅     |
+| \<button><sup>[forms](#forms)</sup>         |                                                                                                           |   ❌   |
+| \<canvas><sup>[danger](#danger)</sup>       |                                                                                                           |   ❌   |
+| \<caption>                                  | class                                                                                                     | ✅     |
+| \<cite>                                     | class                                                                                                     | ✅     |
+| \<code>                                     | class                                                                                                     | ✅     |
+| \<col>                                      | class                                                                                                     | ✅     |
+| \<colgroup>                                 | class                                                                                                     | ✅     |
+| \<data>                                     | class                                                                                                     | ✅  ❔ |
+| \<datalist><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<dd>                                       | class                                                                                                     | ✅     |
+| \<del>                                      | cite, class, datetime                                                                                     | ✅     |
+| \<details>                                  | class                                                                                                     | ✅     |
+| \<dfn>                                      | class, id, title                                                                                          | ✅     |
+| \<dialogue><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<div>                                      | class                                                                                                     | ✅  ❔ |
+| \<dl>                                       | class                                                                                                     | ✅     |
+| \<dt>                                       | class                                                                                                     | ✅     |
+| \<em>                                       |                                                                                                           | ✅     |
+| \<embed><sup>[danger](#danger)</sup>        |                                                                                                           |   ❌   |
+| \<fieldset><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<figcaption>                               | class                                                                                                     | ✅     |
+| \<figure>                                   | class, id                                                                                                 | ✅     |
+| \<footer><sup>[semantic](#semantic)</sup>   |                                                                                                           |   ❌   |
+| \<form><sup>[forms](#forms)</sup>           |                                                                                                           |   ❌   |
+| \<head><sup>[doc](doc)</sup>                |                                                                                                           |   ❌   |
+| \<header><sup>[semantic](#semantic)</sup>   |                                                                                                           |   ❌   |
+| \<hgroup>                                   | class, id                                                                                                 | ✅  ❔ |
+| \<h1><sup>[semantic](#semantic)             |                                                                                                           |   ❌   |
+| \<h2>                                       | class, id                                                                                                 | ✅     |
+| \<h3>                                       | class, id                                                                                                 | ✅     |
+| \<h4>                                       | class, id                                                                                                 | ✅     |
+| \<h5>                                       | class, id                                                                                                 | ✅     |
+| \<h6>                                       | class, id                                                                                                 | ✅     |
+| \<hr>                                       |                                                                                                           | ✅     |
+| \<html><sup>[doc](doc)</sup>                |                                                                                                           |   ❌   |
+| \<i><sup>[em](em)</sup>                     |                                                                                                           | ✅     |
+| \<iframe><sup>[danger](#danger)</sup>       |                                                                                                           |   ❌   |
+| \<img><sup>[media](#media)</sup>            |                                                                                                           |   ❌   |
+| \<input><sup>[forms](#forms)</sup>          |                                                                                                           |   ❌   |
+| \<ins>                                      | cite, class, datetime, id                                                                                 | ✅     |
+| \<kbd>                                      | class                                                                                                     | ✅     |
+| \<label><sup>[forms](#forms)</sup>          |                                                                                                           |   ❌   |
+| \<legend><sup>[forms](#forms)</sup>         |                                                                                                           |   ❌   |
+| \<li>                                       | class                                                                                                     | ✅     |
+| \<link><sup>[head](#head)</sup>             |                                                                                                           |   ❌   |
+| \<main><sup>[semantic](#semantic)</sup>     |                                                                                                           |   ❌   |
+| \<map><sup>[media](#media)</sup>            |                                                                                                           |   ❌   |
+| \<mark>                                     | class                                                                                                     | ✅     |
+| \<menu><sup>[danger](#danger)</sup>         |                                                                                                           |   ❌   |
+| \<menuitem><sup>[danger](#danger)</sup>     |                                                                                                           |   ❌   |
+| \<meta><sup>[doc](doc)</sup>                |                                                                                                           |   ❌   |
+| \<meter>                                    | class                                                                                                     | ✅     |
+| \<nav><sup>[semantic](#semantic)</sup>      |                                                                                                           |   ❌   |
+| \<noscript>                                 |                                                                                                           |   ❌   |
+| \<object><sup>[danger](#danger)</sup>       |                                                                                                           |   ❌   |
+| \<ol>                                       | class, id, start, type                                                                                    | ✅     |
+| \<optgroup><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<option><sup>[forms](#forms)</sup>         |                                                                                                           |   ❌   |
+| \<output><sup>[forms](#forms)</sup>         |                                                                                                           |   ❌   |
+| \<p>                                        | class                                                                                                     | ✅     |
+| \<param><sup>[danger](#danger)</sup>        |                                                                                                           |   ❌   |
+| \<picture><sup>[media](#media)</sup>        |                                                                                                           |   ❌   |
+| \<pre>                                      | class                                                                                                     | ✅     |
+| \<progress><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<q>                                        | class                                                                                                     | ✅     |
+| \<rp>                                       |                                                                                                           |   ❌   |
+| \<rt>                                       |                                                                                                           |   ❌   |
+| \<ruby>                                     |                                                                                                           |   ❌   |
+| \<s>                                        | class                                                                                                     | ✅     |
+| \<samp>                                     | class                                                                                                     | ✅     |
+| \<script><sup>[danger](#danger)</sup>       |                                                                                                           |   ❌   |
+| \<section>                                  | class, id                                                                                                 | ✅  ❔ |
+| \<select><sup>[forms](#forms)</sup>         |                                                                                                           |   ❌   |
+| \<small>                                    | class                                                                                                     | ✅     |
+| \<source><sup>[media](#media)</sup>         |                                                                                                           |   ❌   |
+| \<span>                                     | class                                                                                                     | ✅     |
+| \<strong>                                   |                                                                                                           | ✅     |
+| \<style><sup>[head](#head)</sup>            |                                                                                                           |   ❌❔ |
+| \<sub>                                      | class                                                                                                     | ✅     |
+| \<summary><sup>[provided](#provided)</sup>  |                                                                                                           |   ❌   |
+| \<sup>                                      | class                                                                                                     | ✅     |
+| \<svg><sup>[media](#media)</sup>            |                                                                                                           |   ❌❔ |
+| \<table>                                    | class, id                                                                                                 | ✅     |
+| \<tbody>                                    | class                                                                                                     | ✅     |
+| \<td>                                       | class, colspan, headers, rowspan                                                                          | ✅     |
+| \<template>                                 |                                                                                                           |   ❌   |
+| \<textarea><sup>[forms](#forms)</sup>       |                                                                                                           |   ❌   |
+| \<tfoot>                                    | class                                                                                                     | ✅     |
+| \<th>                                       | abbr, class, colspan, rowspan, scope                                                                      | ✅     |
+| \<thead>                                    | class                                                                                                     | ✅     |
+| \<time>                                     | class                                                                                                     | ✅     |
+| \<title><sup>[head](#head)</sup>            |                                                                                                           |   ❌   |
+| \<tr>                                       | class                                                                                                     | ✅     |
+| \<track><sup>[media](#media)</sup>          |                                                                                                           |   ❌   |
+| \<u>                                        | class                                                                                                     | ✅     |
+| \<ul>                                       | class, type                                                                                               | ✅     |
+| \<var>                                      | class                                                                                                     | ✅     |
+| \<video><sup>[media](#media)</sup>          |                                                                                                           |   ❌   |
+| \<wbr>                                      | class                                                                                                     | ✅     |
 
 ### Drupal Specific Tags
 
-|   Tag              | Attributes                           | ✅❌❔ |
-| ------------------ | ------------------------------------ | ------ |
-| \<drupal-media>    | data-entity-type, data-entity-uuid   | ✅     |
+|   Tag           | Attributes                                                                                                                                                           | ✅❌❔ |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| \<drupal-media> | alt, class data-align, data-caption, data-entity-type, data-link-entity-metadata, data-link-entity-type, data-link-entity-uuid, data-entity-uuid, data-view-mode, id | ✅     |
 
 ***
 
 ## Thoughts and Reasoning
 
+### b
+
+  - Use \<strong> instead.
+
+### Danger
+
+One or more of the following may apply:
+
+### Doc
+
+One or more of the following may apply:
+
+  - The tag forms part of overall document body.
+  - The tag is handled through Drupal Core.
+  - The tag and it's attributes are created through Twig Templates.
+
 ### Forms
 
-- Unnecessary for content editors.
-- Dangerous for use in site content.
-- Forms should only be created and managed by those with higher privileges such as site
-  administrators.
-- Drupal provides a safer, more manageable way to create and consume forms.
+One or more of the following may apply:
 
-### Structural
+  - Unnecessary for content editors.
+  - Unworkable in the context of content editing.
+  - Dangerous for use in site content.
+  - Forms should only be created and managed by those with higher privileges such as site
+    administrators.
+  - Drupal provides a safer, more manageable way to create and consume forms.
 
-- Drupal core handles structural tags through the Twig template engine.
-- Drupal modules add additional handling of structural tags through the Twig template engine.
-- Use of structural tags may confuse semantic markup and therefore result in failures to achieve a
-  good standard of accessibility.
+### Head
+
+One or more of the following may apply:
+
+  - The tag is contained within the head element of the document and is not useable within the
+    document body
+
+### i
+
+  - Use \<em> instead.
 
 ### Media
 
-- Drupal provides a more rounded way of handling of this type of content through the core media
-  module.
-- Links and changes are managed through the media module.
+One or more of the following may apply:
+
+  - Drupal provides a more rounded way of handling of this type of content through the core media
+    module.
+  - Links and changes are managed through the media module.
+  - A contributed module provides a safer, more rounded way of managing this tag and it's contents.
+
+### Page
+
+One or more of the following may apply:
+
+### Provided
+
+One or more of the following may apply:
+
+  - Drupal core handles the display of this tag or component and attributes.
+  - A frequently used Drupal contrib module may handle the tag or attributes more roundly that the
+    HTML Tag
+
+### Semantic
+
+One or more of the following may apply:
+
+  - Drupal core handles semantic tags through the Twig template engine.
+  - Drupal contrib modules add additional handling of semantic tags through the Twig template engine.
+  - Use of structural tags may confuse semantic markup in Twig templates and therefore result in
+    failures to achieve a good standard of accessibility.
