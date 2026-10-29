@@ -5,48 +5,49 @@
 <br class>
 <caption class>
 <cite class>
-<code class>
+<code class="language-* *"
 <col class>
 <colgroup class>
 <data class>
 <dd class>
 <del cite class datetime>
 <details class>
-<dfn class id title>
+<dfn class id="land-*" title>
 <div class>
 <dl class>
 <dt class>
 <em>
 <figcaption class>
-<figure class id>
+<figure class land>
 <hgroup class id>
-<h2 class id>
-<h3 class id>
-<h4 class id>
-<h5 class id>
-<h6 class id>
-<hr class id>
-<ins cite class datetime id>
+<h2 class="text-align-left text-align-center text-align-right text-align-justify *" land>
+<h3 class="text-align-left text-align-center text-align-right text-align-justify *" id="land-*">
+<h4 class="text-align-left text-align-center text-align-right text-align-justify *" id="land-*">
+<h5 class="text-align-left text-align-center text-align-right text-align-justify *" id="land-*">
+<h6 class="text-align-left text-align-center text-align-right text-align-justify *" id="land-*">
+<hr class="text-align-left text-align-center text-align-right text-align-justify *" id="land-*">
+<iframe class id="land-*">
+<ins cite class datetime id="land-*">
 <li class>
 <mark class>
 <meter class>
-<ol class id start type>
-<p class>
-<pre class>
+<ol class id="land-*" start type>
+<p class="text-align-left text-align-center text-align-right text-align-justify *">
+<pre  class="text-align-left text-align-center text-align-right text-align-justify *">
 <q class>
 <s class>
 <samp class>
-<section class id>
+<section class id="land-*">
 <small class>
 <span class>
 <strong>
 <sub class>
 <sup class>
-<table class id>
+<table class id="land-*">
 <tbody>
 <td class colspan headers rowspan>
 <tfoot class>
-<th class>
+<th class colspan rowspan>
 <thead class>
 <time class>
 <tr class>
@@ -54,4 +55,4 @@
 <ul class type>
 <var class>
 <wbr class>
-<drupal-media alt class data-align data-caption data-entity-type data-link-entity-metadata data-link-entity-type data-link-entity-uuid data-entity-uuid data-view-mode id>
+<drupal-media alt class data-align data-caption data-entity-type data-link-entity-metadata data-link-entity-type data-link-entity-uuid data-entity-uuid data-view-mode id="land-*">

@@ -60,7 +60,7 @@ and CSS should be given permissions for it's usage.
 | \<hr>                                       |                                                                                                           | ✅     |
 | \<html><sup>[doc](doc)</sup>                |                                                                                                           |   ❌   |
 | \<i><sup>[em](em)</sup>                     |                                                                                                           | ✅     |
-| \<iframe><sup>[danger](#danger)</sup>       |                                                                                                           |   ❌   |
+| \<iframe>                                   |                                                                                                           | ✅  ❔ |
 | \<img><sup>[media](#media)</sup>            |                                                                                                           |   ❌   |
 | \<input><sup>[forms](#forms)</sup>          |                                                                                                           |   ❌   |
 | \<ins>                                      | cite, class, datetime, id                                                                                 | ✅     |
